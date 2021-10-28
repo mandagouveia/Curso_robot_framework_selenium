@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211027 23:00:54.511" rpa="false" schemaversion="2">
+<suite id="s1" name="Test" source="c:\qaninja\robot\test.robot">
+<test id="s1-t1" name="Deve retornar mensagem de boas vindas">
+<status status="FAIL" starttime="20211027 23:00:54.573" endtime="20211027 23:00:54.573">Test case contains no keywords.</status>
+</test>
+<test id="s1-t2" name="$(result)= welcome">
+<kw name="Amanda">
+<msg timestamp="20211027 23:00:54.589" level="FAIL">No keyword with name 'Amanda' found.</msg>
+<status status="FAIL" starttime="20211027 23:00:54.589" endtime="20211027 23:00:54.589"/>
+</kw>
+<status status="FAIL" starttime="20211027 23:00:54.573" endtime="20211027 23:00:54.589">No keyword with name 'Amanda' found.</status>
+</test>
+<test id="s1-t3" name="Should Be Equal">
+<kw name="$(result)">
+<arg>Olá Amanda, bem vindo ao curso!</arg>
+<msg timestamp="20211027 23:00:54.589" level="FAIL">No keyword with name '$(result)' found.</msg>
+<status status="FAIL" starttime="20211027 23:00:54.589" endtime="20211027 23:00:54.589"/>
+</kw>
+<status status="FAIL" starttime="20211027 23:00:54.589" endtime="20211027 23:00:54.589">No keyword with name '$(result)' found.</status>
+</test>
+<status status="FAIL" starttime="20211027 23:00:54.542" endtime="20211027 23:00:54.589"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
