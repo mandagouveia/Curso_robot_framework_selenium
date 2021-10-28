@@ -1,0 +1,3 @@
+*linguistic-vendored
+*.python linguistic-vendored=false
+*.html linguist-language=python
